@@ -1,0 +1,16 @@
+raw-manifests-1/config.yaml
+  h_85f895d38af546 1-5
+raw-manifests-2/config.yaml
+  h_85f895d38af546 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "0e996512669bf95beda1a961b6bec6474d33cb3b",
+  "prompts": {},
+  "humans": {
+    "h_85f895d38af546": {
+      "author": "Denys Melnyk"
+    }
+  }
+}
