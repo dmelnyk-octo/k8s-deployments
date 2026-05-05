@@ -5,9 +5,12 @@
 # data:
 #   revision: "1"
 # ---
-# apiVersion: v1
-# kind: ConfigMap
-# metadata:
-#   name: cm-3
-# data:
-#   revision: "1"
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-3
+data:
+  revision: "1"
+
+
+# # need to verify what happens when we were deploying to 2 agents in environment but now we deploy to just 1, should be display it on live sta
