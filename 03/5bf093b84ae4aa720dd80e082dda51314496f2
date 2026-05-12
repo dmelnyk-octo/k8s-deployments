@@ -1,0 +1,48 @@
+mock-controller-app/chart/Chart.yaml
+  s_6697fd6295dd8c::t_b7e5463d6c8725 1-10
+mock-controller-app/chart/templates/serviceaccount.yaml
+  s_6697fd6295dd8c::t_664eca3c91c06a 1-14
+mock-controller-app/chart/templates/role.yaml
+  s_6697fd6295dd8c::t_d9e2a743bb32ae 1-22
+mock-controller-app/chart/templates/_helpers.tpl
+  s_6697fd6295dd8c::t_84a525e95c0cea 1-45
+mock-controller-app/chart/templates/rolebinding.yaml
+  s_6697fd6295dd8c::t_72f99bace1186c 1-17
+mock-controller-app/chart/templates/NOTES.txt
+  s_6697fd6295dd8c::t_999a556e98b35d 1-10
+mock-controller-app/application.yaml
+  s_6697fd6295dd8c::t_2c7c31f2968b2d 1-19
+mock-controller-app/chart/values.yaml
+  s_6697fd6295dd8c::t_9ca992a0a9b329 1-51
+.claude/CLAUDE.md
+  h_0abc1f0694f983 1-9
+mock-controller-app/chart/templates/clusterrolebinding.yaml
+  s_6697fd6295dd8c::t_b52842cb1c0b44 1-16
+mock-controller-app/chart/templates/deployment.yaml
+  s_6697fd6295dd8c::t_7745e4b03d9b23 1-94
+mock-controller-app/chart/templates/clusterrole.yaml
+  s_6697fd6295dd8c::t_cc2babb9ba47fb 1-27
+mock-controller-app/chart/templates/service.yaml
+  s_6697fd6295dd8c::t_b0eb3269fd3945 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "035bf093b84ae4aa720dd80e082dda51314496f2",
+  "prompts": {},
+  "humans": {
+    "h_0abc1f0694f983": {
+      "author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  },
+  "sessions": {
+    "s_6697fd6295dd8c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8132b10-db36-471d-aebe-7893833b4c53",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  }
+}
