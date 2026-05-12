@@ -1,0 +1,10 @@
+apiVersion: v2
+name: mock-controller
+description: Fake Kubernetes controller for Octopus Deploy development and testing
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - mock
+  - controller
+  - testing

@@ -1,0 +1,10 @@
+mock-controller has been deployed.
+
+  Release:   {{ .Release.Name }}
+  Namespace: {{ .Release.Namespace }}
+
+Deployment:
+  kubectl get deployment -n {{ .Release.Namespace }} {{ include "mock-controller.fullname" . }}-controller-manager
+
+Logs:
+  kubectl logs -n {{ .Release.Namespace }} -l control-plane=controller-manager -c manager
