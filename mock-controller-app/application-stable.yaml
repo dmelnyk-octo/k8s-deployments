@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
     path: mock-controller-app/chart
     helm:
-      releaseName: mock-controller
+      releaseName: mock-controller-stable
       values: |
         replicaCount: 2
         leaderElection:
