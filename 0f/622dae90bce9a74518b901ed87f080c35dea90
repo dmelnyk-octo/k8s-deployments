@@ -1,0 +1,36 @@
+.claude/skills/bootstrap-kind/kind-config.yaml
+  h_0abc1f0694f983 3
+  s_ec66ad076e53d8::t_0a0771065f62cd 5-6
+  s_ec66ad076e53d8::t_fc68f84d52ed3b 1-2,4,7-8
+mock-controller-app/application-dev.yaml
+  s_ec66ad076e53d8::t_64163971be367c 1-26
+.claude/skills/bootstrap-kind/SKILL.md
+  s_ec66ad076e53d8::t_e3ab68e674870f 30
+.claude/skills/local-registry/SKILL.md
+  s_ec66ad076e53d8::t_70ea77d47bb8b4 1-70
+mock-controller-app/application-stable.yaml
+  s_ec66ad076e53d8::t_03306cc70fa51f 4-30
+mock-controller-app/chart/values.yaml
+  s_ec66ad076e53d8::t_3402d4a8afdad0 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "0f622dae90bce9a74518b901ed87f080c35dea90",
+  "prompts": {},
+  "humans": {
+    "h_0abc1f0694f983": {
+      "author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  },
+  "sessions": {
+    "s_ec66ad076e53d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "553ff45d-663e-4588-8a3d-8296687f3d9a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  }
+}
