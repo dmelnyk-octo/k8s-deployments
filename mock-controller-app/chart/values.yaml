@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: host.docker.internal:5000/mock-controller/alpine
   # Alternatives: 3.18, 3.17, 3.16, latest, edge
-  tag: "3.19"
+  tag: "3.16"
   pullPolicy: IfNotPresent
 
 nameOverride: ""
