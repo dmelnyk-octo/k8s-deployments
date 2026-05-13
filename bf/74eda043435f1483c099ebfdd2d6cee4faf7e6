@@ -1,0 +1,57 @@
+.claude/skills/setup-argocd/SKILL.md
+  s_6697fd6295dd8c::t_d908786fa4afe0 1-100
+.claude/docs/argocd-octopus.md
+  s_89bdadc5490cfd::t_460a42dc1192a3 1-395
+.claude/skills/bootstrap-kind/SKILL.md
+  s_6697fd6295dd8c::t_8387f9f453c2d4 1-2,4-6,8-10,12-20,22-38
+  s_6697fd6295dd8c::t_d12f8eaf9b7156 39
+  s_6697fd6295dd8c::t_177d7721b9d6d6 3,7,11,21,40
+mock-controller-app/application.yaml
+  s_89bdadc5490cfd::t_ce7706d7364626 19
+  s_4b95f2ab54b60d::t_e8ff6ddfab124a 6-8
+.claude/CLAUDE.md
+  s_89bdadc5490cfd::t_6c4e269240a349 2,6
+  s_89bdadc5490cfd::t_d246dc555ca9c1 1,3-5
+.claude/docs/kubernetes-octopus.md
+  s_89bdadc5490cfd::t_131772ee4cec28 1-478
+.gitignore
+  s_4b95f2ab54b60d::t_fff662df4a8202 1,3-6
+  s_4b95f2ab54b60d::t_23c1bad9b77017 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "bf74eda043435f1483c099ebfdd2d6cee4faf7e6",
+  "prompts": {},
+  "humans": {
+    "h_0abc1f0694f983": {
+      "author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  },
+  "sessions": {
+    "s_4b95f2ab54b60d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce7602e-8caf-4428-8d67-715bc338c5aa",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    },
+    "s_6697fd6295dd8c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8132b10-db36-471d-aebe-7893833b4c53",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    },
+    "s_89bdadc5490cfd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "43f2991a-1b38-45d9-8934-95485ae05195",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  }
+}
