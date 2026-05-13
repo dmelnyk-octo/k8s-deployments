@@ -30,11 +30,21 @@ kind delete cluster --name <cluster-name>
 kind create cluster --name <cluster-name> --config .claude/skills/bootstrap-kind/kind-config.yaml
 ```
 
-### 3. Verify connectivity
+### 3. Update project kubeconfig
+
+Merge the new cluster into the project's `.kube/config` and set it as the default context:
 
 ```bash
+kind export kubeconfig --name <cluster-name> --kubeconfig .kube/config
+kubectl config use-context kind-<cluster-name> --kubeconfig .kube/config
+```
+
+### 4. Verify connectivity
+
+```bash
+kubectl config get-contexts
 kubectl cluster-info --context kind-<cluster-name>
-kubectl get nodes
+kubectl get nodes --context kind-<cluster-name>
 ```
 
 Report the active context and node status. Done.
