@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: mock-controller
+  name: mock-controller-stable
   namespace: argocd
   annotations:
     argo.octopus.com/project: mock-controller
-    argo.octopus.com/environment: development
+    argo.octopus.com/environment: stable
 spec:
   project: default
   source:
@@ -14,9 +14,20 @@ spec:
     path: mock-controller-app/chart
     helm:
       releaseName: mock-controller
+      values: |
+        replicaCount: 2
+        leaderElection:
+          enabled: true
+        resources:
+          limits:
+            cpu: 1000m
+            memory: 256Mi
+          requests:
+            cpu: 50m
+            memory: 128Mi
   destination:
     server: https://kubernetes.default.svc
-    namespace: mock-controller
+    namespace: mock-controller-stable
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

@@ -1,0 +1,26 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: mock-controller-dev
+  namespace: argocd
+  annotations:
+    argo.octopus.com/project: mock-controller
+    argo.octopus.com/environment: development
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/dmelnyk-octo/k8s-deployments.git
+    targetRevision: HEAD
+    path: mock-controller-app/chart
+    helm:
+      releaseName: mock-controller
+      values: |
+        replicaCount: 1
+        leaderElection:
+          enabled: false
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: mock-controller-dev
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true

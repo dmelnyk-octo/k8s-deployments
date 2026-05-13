@@ -27,7 +27,7 @@ kind delete cluster --name <cluster-name>
 ### 2. Create the cluster
 
 ```bash
-kind create cluster --name <cluster-name>
+kind create cluster --name <cluster-name> --config .claude/skills/bootstrap-kind/kind-config.yaml
 ```
 
 ### 3. Verify connectivity
