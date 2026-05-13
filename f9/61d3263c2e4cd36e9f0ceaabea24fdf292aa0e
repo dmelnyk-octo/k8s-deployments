@@ -1,0 +1,30 @@
+.claude/skills/bootstrap-kind/kind-config.yaml
+  s_ec66ad076e53d8::t_30932057cf44ee 3,5-6,8-9
+  s_ec66ad076e53d8::t_d1af0a0a5766ff 7
+  h_0abc1f0694f983 4
+.claude/skills/setup-argocd/SKILL.md
+  s_ec66ad076e53d8::t_2c9ebd5e83ae5d 9-10,21,26,31-34,37-38,41,48,65,74,76,81-82
+  s_ec66ad076e53d8::t_c90fa5e4211355 23,27,30
+  s_ec66ad076e53d8::t_3b095b5b654ac1 54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "f961d3263c2e4cd36e9f0ceaabea24fdf292aa0e",
+  "prompts": {},
+  "humans": {
+    "h_0abc1f0694f983": {
+      "author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  },
+  "sessions": {
+    "s_ec66ad076e53d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "553ff45d-663e-4588-8a3d-8296687f3d9a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  }
+}
