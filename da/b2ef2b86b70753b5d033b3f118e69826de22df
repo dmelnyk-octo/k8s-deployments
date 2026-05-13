@@ -1,0 +1,29 @@
+.claude/settings.json
+  s_ec66ad076e53d8::t_ec918858d38498 1-5
+.claude/skills/bootstrap-kind/SKILL.md
+  s_ec66ad076e53d8::t_e2d2139e9753a7 35,39
+  s_ec66ad076e53d8::t_d5becfb3651e76 33,36-38,40-42,45,47
+.gitignore
+  h_0abc1f0694f983 7-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "dab2ef2b86b70753b5d033b3f118e69826de22df",
+  "prompts": {},
+  "humans": {
+    "h_0abc1f0694f983": {
+      "author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  },
+  "sessions": {
+    "s_ec66ad076e53d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "553ff45d-663e-4588-8a3d-8296687f3d9a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  }
+}
