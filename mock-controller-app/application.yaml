@@ -3,6 +3,9 @@ kind: Application
 metadata:
   name: mock-controller
   namespace: argocd
+  annotations:
+    argo.octopus.com/project: mock-controller
+    argo.octopus.com/environment: development
 spec:
   project: default
   source:
@@ -13,7 +16,7 @@ spec:
       releaseName: mock-controller
   destination:
     server: https://kubernetes.default.svc
-    namespace: demo
+    namespace: mock-controller
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
