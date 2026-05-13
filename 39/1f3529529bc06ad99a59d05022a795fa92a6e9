@@ -1,0 +1,26 @@
+mock-controller-app/application-stable.yaml
+  s_ec66ad076e53d8::t_e04ac2c5d1ddfc 16
+mock-controller-app/application-dev.yaml
+  s_ec66ad076e53d8::t_afc810dab85d9d 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "391f3529529bc06ad99a59d05022a795fa92a6e9",
+  "prompts": {},
+  "humans": {
+    "h_0abc1f0694f983": {
+      "author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  },
+  "sessions": {
+    "s_ec66ad076e53d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "553ff45d-663e-4588-8a3d-8296687f3d9a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Denys Melnyk <denis.melnyk@octopus.com>"
+    }
+  }
+}
